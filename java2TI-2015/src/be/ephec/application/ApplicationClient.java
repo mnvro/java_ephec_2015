@@ -60,7 +60,6 @@ public class ApplicationClient {
 	public void setNum(int num) {
 		this.num = num;
 	}
-
 	public static int getNbClients() {
 		return nbClients;
 	}
