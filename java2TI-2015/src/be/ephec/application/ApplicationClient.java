@@ -65,7 +65,6 @@ public class ApplicationClient {
 	public static int getNbClients() {
 		return nbClients;
 	}
-
 	public static void setNbClients(int nbClients) {
 		ApplicationClient.nbClients = nbClients;
 	}	
