@@ -40,7 +40,6 @@ public class ApplicationClient {
 	public InterfaceGraphiqueClient getInterfaceGraphiqueClient() {
 		return interfaceGraphiqueClient;
 	}
-
 	public void setInterfaceGraphiqueClient
 	 (InterfaceGraphiqueClient interfaceGraphiqueClient) {
 		this.interfaceGraphiqueClient = interfaceGraphiqueClient;
