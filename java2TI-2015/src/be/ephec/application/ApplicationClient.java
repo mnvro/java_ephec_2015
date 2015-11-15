@@ -7,7 +7,6 @@ public class ApplicationClient {
 	private ClientSocket socket;
 	private int num;
 	private static int nbClients = 0;
-	
 	public ApplicationClient(){
 		interfaceGraphiqueClient = new InterfaceGraphiqueClient(this);
 		nbClients++;
