@@ -1,7 +1,5 @@
 package be.ephec.application;
-
 public class Main {
-
 	public static void main(String[] args) {
 		ApplicationServeur appliServeur = new ApplicationServeur();
 		ApplicationClient appliClient[] = new ApplicationClient[Param.NB_CLIENTS];

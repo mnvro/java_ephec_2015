@@ -88,21 +88,17 @@ public class ServeurSocket extends ServerSocket implements Runnable {
 		ServeurSocket ms = ServeurSocket.getServeurPortLibre(null);
 		
 	}
-	
 	public void ecrireSurUnClient(ClientCoteServeur ccs, Object o){
 		ccs.ecrire(o);
 	}
-	
 	public void ecrirSurTousLesClients(Object o){
 		for (ClientCoteServeur clientCoteServeur : listeClients) {
 			clientCoteServeur.ecrire(o);
 		}
 	}
-	
 	public Object lireSurUnClient(int num){
 		return listeClients.get(num).lire();
 	}
-	
 	@Override
 	public void run() {
 		while (!this.isClosed()){

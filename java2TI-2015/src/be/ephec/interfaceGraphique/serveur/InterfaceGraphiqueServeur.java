@@ -1,5 +1,4 @@
 package be.ephec.interfaceGraphique.serveur;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -10,7 +9,6 @@ import be.ephec.network.ClientCoteServeur;
 public class InterfaceGraphiqueServeur extends JFrame {
 	private JPanel jpanelServer;
 	private ApplicationServeur ma;
-
 	public InterfaceGraphiqueServeur(ApplicationServeur ma) {
 		this.ma = ma;
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -44,5 +42,4 @@ public class InterfaceGraphiqueServeur extends JFrame {
 	public void setJpanelServer(JPanel jpanelServer) {
 		this.jpanelServer = jpanelServer;
 	}
-	
 }

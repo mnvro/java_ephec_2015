@@ -15,7 +15,6 @@ public class ApplicationServeur {
 	public static void main(String[] args) {
 		ApplicationServeur ma = new ApplicationServeur();
 	}
-
 	// Les méthodes utiles
 	public void traiteClientConnecte(ClientCoteServeur ccs){
 		getInterfaceGraphiqueServeur().ajouteDansLaConsole(
@@ -56,7 +55,6 @@ public class ApplicationServeur {
 	public void setServeurSocket(ServeurSocket serveurSocket) {
 		this.serveurSocket = serveurSocket;
 	}
-
 }
 
 

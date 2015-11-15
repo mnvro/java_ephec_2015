@@ -1,11 +1,9 @@
 package be.ephec.application;
 
 public class Param {
-
 	/**
 	 * C'est le numéro de port par défaut que l'on essaie d'ouvrir
 	 */
-	
 	public static final int NUM_PORT_DE_BASE = 62900;
 	public static final String IP_SERVEUR = "127.0.0.1";
 	
@@ -27,7 +25,6 @@ public class Param {
 	public static final int NB_CLIENTS = 16;
 	
 	public static final int NB_COLONNES_AFFICHAGE = 4;
-	
 }
 
 

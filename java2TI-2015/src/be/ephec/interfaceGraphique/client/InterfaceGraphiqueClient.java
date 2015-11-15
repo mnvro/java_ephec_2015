@@ -1,5 +1,4 @@
 package be.ephec.interfaceGraphique.client;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
@@ -50,5 +49,4 @@ public class InterfaceGraphiqueClient extends JFrame {
 		this.jPanelClient = jPanelClient;
 		this.setContentPane(jPanelClient);
 	}
-	
 }

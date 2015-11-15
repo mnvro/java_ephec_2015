@@ -1,5 +1,4 @@
 package be.ephec.interfaceGraphique.serveur;
-
 import javax.swing.JPanel;
 import java.awt.GridBagLayout;
 import javax.swing.JLabel;
@@ -18,9 +17,9 @@ import java.awt.event.ActionEvent;
 public class JPanelAccueilServeur extends JPanel implements ActionListener {
 	private ApplicationServeur applicationServeur;
 	private JTextField jTextFieldNumPort;
-
 	/**
 	 * Create the panel.
+	 * @param applicationServeur une référence vers l'application
 	 */
 	public JPanelAccueilServeur(ApplicationServeur applicationServeur) {
 		this.applicationServeur = applicationServeur;

@@ -1,5 +1,4 @@
 package be.ephec.application;
-
 import java.util.Calendar;
 
 public class Console {
@@ -13,5 +12,4 @@ public class Console {
 		int seconde = cal.get(Calendar.SECOND);
 		return hour+":"+minute+":"+seconde+"> ";
 	}
-
 }
