@@ -1,5 +1,4 @@
 package be.ephec.application;
-
 import be.ephec.interfaceGraphique.client.InterfaceGraphiqueClient;
 import be.ephec.network.ClientSocket;
 
